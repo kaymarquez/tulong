@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  background-color: #0B090A;
+  font-family: "Nunito", "Montserrat", sans-serif;
+  height: fit-content;
+  min-height: 100%;
+ color:white;
+  height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  color: #FFFFFF;
+  font-size:3
+    0px;
+}
+li,
+a,
+button {
+  text-decoration: none;
+  color: #023047;
+}
+header {
+  color:white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 10%;
+background-color: white;
+}
+
+.logo {
+  cursor: pointer;
+  margin-left: auto;
+  order: 3;
+  height: 50px;
+  width: auto;
+  padding-left: 75px;
+
+}
+nav {
+  margin-left:-150px;
+  color: white; 
+  order: 1;
+}
+.nav_links {
+  list-style: none;
+  text-decoration: none;
+}
+.nav_links li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+.nav_links li {
+  display: inline-block;
+
+  padding: 0px 20px;
+}
+.nav_links li a:hover {
+  color: white;
+}
+.cta {
+  order: 2;
+  font-size:25px;
+}
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #BA181B;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+}
+
+p{
+  margin-left:10%;
+  margin-top: 5%;
+}
+
+#k{
+padding-left:10px;
+   margin-left:10 px;
+  float: right;
+  width:35%;
+}
+
+#kk{
+  color:#BA181B;
+}
+
+
+.sign{
+border:0;
+}
+#mp{
+
+  display:inline-block; overflow:hidden; float: left; width:55%;
+  overflow:hidden;
+ margin-bottom:0px;
+}
+button{
+  font-family: "Nunito", "Montserrat", sans-serif;
+  color:white;
+}
+.pr{
+  margin-left:40px;
+    text-decoration: underline;
+  text-decoration-color: #BA181B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#community{
+  color:white;
+}
+/**KILLED CODE 
+ margin-top:-50px;  border:none; **/
+h1{
+ 
+
+    text-decoration: underline;
+  text-decoration-color: #BA181B;
+text-decoration-thickness: 10%;
+}
+
+.column {
+  box-sizing: border-box;
+  flex: 33.33%;
+  padding: 5px;
+margin-left:80px;
+  margin-right:-30px;
+}
+
+/* Clear floats after image containers */
+.row {
+  margin-top:450px;
+  box-sizing: border-box;
+   display: flex;
+  margin-right:-30px;
+}
